@@ -35,3 +35,11 @@
                     <p class="text-[#737272] text-xl font-medium">Get hired into a Job in Internatinal/National Industries</p>
                 </div>
             </div>
+
+
+            r8 -----------------------
+            <button class="btn btn-primary w-[160px] bg-[#fff] text-[#005FAC] border-none hover:bg-[#005FAC] hover:text-[#fff] border-2 border-inherit border-solid">Contact Now</button>
+
+
+            wrong -----------------------
+            class="btn pt-3 pb-3 ml-[420px] bg-[#f97316] hover:bg-[#ea580c] border-none text-[#FFF] text-xl font-semibold"
