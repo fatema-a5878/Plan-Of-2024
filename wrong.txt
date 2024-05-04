@@ -1,0 +1,37 @@
+<div class="flex">
+                <div class="text-center">
+                    <img src="./Media/images/icons/web.png" class="mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414]">Web Development</h2>
+                    <p class="text-[#737272] text-xl font-medium">I have start the work</p>
+                </div>
+                <div class="text-center">
+                    <img src="./Media/images/icons/study.png" class="w-40 mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414]">Complete HSC</h2>
+                    <p class="text-[#737272] text-xl font-medium">Study hard to complete HSC exam properly</p>
+                </div>
+                <div class="text-center">
+                    <img src="./Media/images/icons/js.png" class="mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414] mb-4">Javascript</h2>
+                    <p class="text-[#737272] text-xl font-medium">I want to learn</p>
+                </div>
+                <div class="text-center">
+                    <img src="./Media/images/icons/achivement.png" class="w-40 mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414] mb-4">Achieve A<sup>+</sup></h2>
+                    <p class="text-[#737272] text-xl font-medium">Get GPA 5 In The HSC Exam</p>
+                </div>
+                <div class="text-center">
+                    <img src="./Media/images/icons/girl.png" class="w-40 mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414] mb-4">Learning English<sup>+</sup></h2>
+                    <p class="text-[#737272] text-xl font-medium">Become a Pro-label English Speaker</p>
+                </div>
+                <div class="text-center">
+                    <img src="./Media/images/icons/stethoscope.png" class="w-40 mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414] mb-4">Get admission</h2>
+                    <p class="text-[#737272] text-xl font-medium">Get admission into Medical for doing BSC Nursing</p>
+                </div>
+                <div class="text-center">
+                    <img src="./Media/images/icons/hired.png" class="w-40 mb-6" alt="">
+                    <h2 class="text-2xl font-bold text-[#151414] mb-4">Get Hire</h2>
+                    <p class="text-[#737272] text-xl font-medium">Get hired into a Job in Internatinal/National Industries</p>
+                </div>
+            </div>
