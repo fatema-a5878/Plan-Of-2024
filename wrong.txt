@@ -43,3 +43,14 @@
 
             wrong -----------------------
             class="btn pt-3 pb-3 ml-[420px] bg-[#f97316] hover:bg-[#ea580c] border-none text-[#FFF] text-xl font-semibold"
+
+
+            <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+  <aside>
+    <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+  </aside>
+</footer>
+
+
+fb - https://www.facebook.com/fatema.a5878/
+twitter - https://twitter.com/fatema_a5878
