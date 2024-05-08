@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Tailwind & Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee2747d84d.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .ws{
+            font-family: "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="ws">
+    <header>
+        <div class="navbar flex justify-between px-0 lg:px-[210px]">
+            <div class="">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a>SOCIAL LINK</a>
+                            <ul class="p-2">
+                                <li><a href="https://www.facebook.com/fatema.a5878/" target="_blank">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/fatema.a5878/" target="_blank">Instagram</a></li>
+                                <li><a href="#" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://twitter.com/fatema_a5878" target="_blank">Twitter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./index2.html">CONTACT</a></li>
+                    </ul>
+                </div>
+              <a class="text-xl"><img src="./Media/images/logo3.png" class="w-32 lg:w-40" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="./index.html">HOME</a></li>
+                <li>
+                  <details>
+                    <summary>SOCIAL LINK</summary>
+                    <ul class="p-2">
+                      <li><a href="https://www.facebook.com/fatema.a5878/" target="_blank">Facebook</a></li>
+                      <li><a href="https://www.instagram.com/fatema.a5878/" target="_blank">Instagram</a></li>
+                      <li><a href="#" target="_blank">LinkedIn</a></li>
+                      <li><a href="https://twitter.com/fatema_a5878" target="_blank">Twitter</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a href="./index2.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+    </header>
+    <main class="flex flex-col lg:flex-row justify-center mb-8">
+        <!-- 1st Section -->
+        <div class="card lg:w-[710px] image-full rounded-none">
+            <figure><img src="./Media/images/background.jpg" alt=""></figure>
+            <div class="card-body lg:pl-24 pt-20 lg:pt-64">
+                <div class="flex gap-4 items-center mb-4">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2 class="lg:text-xl font-medium">Address</h2>
+                </div>
+                <div>
+                    <p class="mb-4 pl-8 text-[#C7C8CC] text-sm lg:text-base">78/B/5/Ga, Bibir Bagicha Gate No.04, North Jatrabari,<br> Dhaka-1236, <abbr title="Bangladesh">BD.</abbr></p>
+                </div>
+                <div class="flex gap-4 items-center mb-4">
+                    <i class="fa-solid fa-comments"></i>
+                    <h2 class="lg:text-xl font-medium">Let's Chat</h2>
+                </div>
+                <div>
+                    <p class="mb-4 text-[#01AB60] pl-8 text-sm lg:text-base">facebook.com/fatema.a5878/</abbr></p>
+                </div>
+                <div class="flex gap-4 items-center mb-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2 class="lg:text-xl font-medium">General Contact</h2>
+                </div>
+                <div>
+                    <p class="mb-4 text-[#01AB60] pl-8 text-sm lg:text-base">fatema.a5878@gmail.com</abbr></p>
+                </div>
+                <div class="flex gap-4 pl-8 mt-5 mb-5 lg:mb-0">
+                    <a href="https://www.facebook.com/fatema.a5878/"><img src="./Media/images/icons/fb.png" class="w-8 lg:w-10 hover:w-12 transition-all ease-in-out" alt=""></a>
+                    <a href="https://twitter.com/fatema_a5878"><img src="./Media/images/icons/twitter.png" class="w-8 lg:w-10 hover:w-12 transition-all ease-in-out" alt=""></a>
+                    <a href="#"><img src="./Media/images/icons/Linkedin.png" alt="" class="w-8 lg:w-10 hover:w-12 transition-all ease-in-out"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd Section -->
+        <div class="lg:w-[710px] shadow-lg bg-[#f3f4f6]">
+            <h1 class="text-black font-semibold text-xl lg:text-3xl text-center mb-12 pt-8">Send Us A Message</h1>
+            <div class="mx-12 lg:mx-16">
+                <h2 class="text-sm lg:text-base font-semibold border-2 border-solid border-inherit py-4 pl-5 bg-white">TELL US YOUR NAME *</h2>
+                <input type="text" placeholder="Type your name" class="py-4 pl-5 pr-[25px] lg:pr-[362px] mb-4 border-2 border-solid border-inherit">
+                <h2 class="text-sm lg:text-base font-semibold border-2 border-solid border-inherit py-4 pl-5 bg-white">ENTER YOUR EMAIL *</h2>
+                <input type="email" placeholder="Eg.example@gmail.com" class="py-4 pl-5 pr-[25px] lg:pr-[362px] mb-4 border-2 border-solid border-inherit">
+                <h2 class="text-sm lg:text-base font-semibold border-2 border-solid border-inherit py-4 pl-5 bg-white">ENTER PHONE NUMBER </h2>
+                <input type="number" placeholder="Eg. +8801000000000" class="py-4 pl-5 pr-[25px] lg:pr-[362px] mb-4 border-2 border-solid border-inherit">
+                <h2 class="text-sm lg:text-base font-semibold border-2 border-solid border-inherit py-4 pl-5 bg-white">MESSAGE *</h2>
+                <textarea name="" id="" placeholder="Write us a message..." class="pt-4 pb-16 pl-5 pr-[32px] lg:pr-[362px] mb-6 border-2 border-solid border-inherit"></textarea>
+                <div class="flex justify-center ">
+                    <button class="btn bg-[#01AC5E] hover:bg-[#006A36] text-white lg:px-12 rounded-none mb-5 lg:mb-0 lg:mt-6">SEND MESSAGE</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Copyright -->
+        <div class="footer footer-center p-4 bg-base-300 text-xs lg:text-base text-base-content ">
+            <aside>
+                <p>Copyright © 2024 - All right reserved by Fatema Akter</p>
+            </aside>
+        </div>
+    </footer>
+</body>
+</html>
