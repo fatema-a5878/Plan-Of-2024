@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ws{
+    font-family: "Work Sans", sans-serif;
+}
+.box:hover{
+    transform: scale(1.04) translateY(-5px);
+}
+.icon a:hover{
+    transform: scale(1.04) translateY(-5px);
+}
